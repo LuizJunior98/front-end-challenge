@@ -1,0 +1,156 @@
+/* CSS - folha de estilo */
+
+	#page {
+		background-color: #000000;
+		height: 100%;
+		width: 100%;
+	}
+
+	#banner {
+		background-image: url("banner.jpg");
+		background-repeat: no-repeat;
+		background-position: rigth;
+		background-size: 300px 150px;
+
+		background-color: #000000;
+		height: 150px;
+		width: 100%;
+	}
+
+	#titulo {
+		margin-left: 150px;
+		text-align: center;
+		line-height:150px;
+		font-size: 24px;
+		color: #FFFFFF;
+	}
+
+	#menu ul {
+    		text-align: center;
+    		padding:0px;
+    		margin:0px;
+    		background-color:#EDEDED;
+    		list-style:none;
+	}
+
+
+	#menu ul li { display: inline; }
+
+
+	#menu ul li a {
+    		padding: 2px 10px;
+    		display: inline-block;
+
+    						
+    		background-color:#EDEDED;
+    		color: #333;
+    		text-decoration: none;
+    		border-bottom:3px solid #EDEDED;
+	}
+
+
+	#menu ul li a:hover {
+    		background-color:#D6D6D6;
+    		color: #6D6D6D;
+    		border-bottom:3px solid #EA0000;
+	}
+
+	#corpo {
+		text-align: center;
+		color: #FFFFFF;
+		height: 100%;
+		width: 100%;
+		background-color: #000000;
+	}
+	
+	#corpo1 {
+		text-align: center;
+		color: #FFFFFF;
+		height: 100%;
+		width: 100%;
+		font-size: 40px;
+		background-color: #000000;
+	}
+	
+	#corpo1 p {
+		
+		border-color: #FFFFFF;
+		font-size: 25px;
+	}
+
+	#rodape {
+		text-align: center;
+		color: #FFFFFF;
+		width: 100%;
+		height: 50px;
+		background-color: #000000;
+	}
+	
+	#top {
+		width:100%;
+		height: 100%;
+		display: flex;
+	}	
+	
+	embed {
+		margin-top:50px;
+	}
+	
+	#coluna {
+		padding: 2px 10px;
+		background-color: #363636;
+		height: 100%;
+	}
+	
+	#coluna ul {
+		padding: 2px 10px;
+		list-style:none;
+	}
+	
+	
+	.botao {
+    	padding: 2px 10px;
+    	display: inline-block;
+		
+		float:center-rigth;
+		text-align: top;
+    	background-color:#EDEDED;
+    	color: #333;
+    	text-decoration: none;
+    	border-right:3px solid #00FF00;
+	}
+	
+
+	.botao:hover {
+		color: #006400;
+		background-color:#C1FFC1;
+    	border-bottom:3px solid #00FF00;
+	}
+	
+	ul.pagina {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+		list-style:none;
+	}
+
+	ul.pagina li {display: inline;}
+
+	ul.pagina li a {
+		color: #FFFFFF;
+		float: center;
+		padding: 2px 8px;
+		text-decoration: none;
+		transition: background-color .3s;
+		border: 2px solid #00FF00;
+		font-size: 18px;
+	}
+
+	ul.pagina li a.active {
+		background-color: #eee;
+		color: black;
+		border: 1px solid #ddd;
+	}
+
+	ul.pagina li a:hover:not(.active) {background-color: #C1FFC1;}
+	
